@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('../partials/head')%>
+    <head>
+        <title>Project for Colin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <%- include ('../partials/header')%>
+    <body>
+
+        <div>
+        <ol>
+        <% users.forEach(({name,city},idx) => {%>
+            
+            
+        <li>  <%= name %> is from <%= city %>.</li>
+                    <%}) %>
+
+
+
+        </ol>
+
+
+    </div>
+    </body>
+</html>
